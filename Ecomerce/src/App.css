@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+.main {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 10px;
+  background: #d8d6d6;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+  position: relative;
+
+}
+
+.imgPro {
+  margin-bottom: 10px;
+  width: 170px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+
+
+.product {
+
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+
+}
+
+.imgPro {
+  width: 190px;
+  height: 200px;
+}
+
+.homePage {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  gap: 30px;
+
+  justify-content: space-between;
+
+  position: relative;
+}
+
+.homePage img {
+
+  width: 50vw;
+  border-radius: 10px;
+  height: 50vh;
+
+}
+
+.homePage p {
+
+  padding: 8vw;
+  line-height: 30px;
+  font-weight: 200;
+
+}
+
+.header {
+  margin-bottom: 10px;
+  width: 100vw;
+  height: 100%;
+
+  display: flex;
+  justify-content: right;
+  padding: 50px;
+  gap: 20px;
+  height: 100px;
+  align-items: center;
+  box-shadow: 0px 3px 3px rgb(223, 217, 217);
+  background-color: antiquewhite;
+
+
+
+}
+
+.proHeader,
+.home {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+
+}
+
+.imgdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.homePage h2 {
+  margin-top: 100px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+@media (max-width:600px) {
+  .main {
+    width: 80vw;
+  }
+
+  .pricing {
+    padding: 0 30px;
+
+  }
+
+  .title {
+    padding: 0 30px;
+  }
+
+  .imgPro {
+    width: 70vw;
+  }
+
+  .homePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .homePage img {
+    width: 70vw;
+    height: 70vmin;
+  }
+
+  .homePage p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+
+}
